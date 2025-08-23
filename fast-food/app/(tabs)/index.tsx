@@ -3,7 +3,6 @@ import { Fragment } from "react";
 import { FlatList, Image, Pressable, Text, TouchableOpacity, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import cn from 'clsx'
-import CardButton from "@/components/CardButton";
 
 export default function Index() {
   return (
@@ -49,7 +48,7 @@ export default function Index() {
             <Image source={images.arrowDown} className="size-3 mt-1" resizeMode="contain"/>
             </TouchableOpacity>
             </View>
-            <CardButton/>
+         
       </View>
       )}
       />
